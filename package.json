@@ -1,0 +1,25 @@
+{
+  "name": "booklisting-application",
+  "version": "1.0.0",
+  "description": "A sample node js booklisting application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "start:dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "Logiclab",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "i": "^0.3.7",
+    "joi": "^17.9.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
